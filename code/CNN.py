@@ -19,7 +19,7 @@ transform = transforms.Compose([
 
 
 dataset = datasets.ImageFolder(
-    root='/Users/youli/Desktop/CV/data',  
+    root='../data',  
     transform=transform
 )
 
